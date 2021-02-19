@@ -17,9 +17,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="GreenBackground" translatesAutoresizingMaskIntoConstraints="NO" id="DhD-KQ-SwI">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="GreenBackground" translatesAutoresizingMaskIntoConstraints="NO" id="DhD-KQ-SwI">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DiceeLogo" translatesAutoresizingMaskIntoConstraints="NO" id="uai-Uc-zyr">
                                 <rect key="frame" x="87" y="131" width="240" height="128"/>
@@ -48,6 +47,12 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="DhD-KQ-SwI" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="9PC-gd-i1S"/>
+                            <constraint firstItem="DhD-KQ-SwI" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Tk8-na-OwL"/>
+                            <constraint firstItem="DhD-KQ-SwI" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="njn-NK-usW"/>
+                            <constraint firstAttribute="bottom" secondItem="DhD-KQ-SwI" secondAttribute="bottom" id="rk5-av-JfK"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="diceImageView1" destination="5hV-q2-BR9" id="Ia1-M1-JIK"/>
