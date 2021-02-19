@@ -1,3 +1,5 @@
+func greeting2(whoToGreet:String){
+    print("Hello\(whoToGreet)")
+}
 
-let password="a"+"b"
-print(password)
+greeting2(whoToGreet: "Gary")
