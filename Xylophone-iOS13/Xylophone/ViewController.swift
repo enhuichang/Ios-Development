@@ -19,15 +19,20 @@ class ViewController: UIViewController {
     }
 
     @IBAction func KeyPressed(_ sender: UIButton) {
-        print(sender.currentTitle)
-        playSound()
+        let seconds = 0.2
+        sender.alpha = 0.5
+        DispatchQueue.main.asyncAfter(deadline: .now() + seconds) {
+            // Put your code which should be executed with a delay here
+            self.playSound(soundName: sender.currentTitle!)
+            sender.alpha = 1.0
+        }
     }
     
     
 
 
-    func playSound() {
-        guard let url = Bundle.main.url(forResource: "C", withExtension: "wav") else { return }
+    func playSound(soundName:String) {
+        guard let url = Bundle.main.url(forResource: soundName, withExtension: "wav") else { return }
 
         do {
             try AVAudioSession.sharedInstance().setCategory(.playback, mode: .default)
