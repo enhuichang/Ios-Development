@@ -7,3 +7,10 @@
 //
 
 import Foundation
+
+struct Story
+{
+    var choice1:String
+    var choice2:String
+    var title:String
+}
