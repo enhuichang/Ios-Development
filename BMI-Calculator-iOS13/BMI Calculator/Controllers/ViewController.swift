@@ -16,9 +16,9 @@ class ViewController: UIViewController {
     }
 
     @IBAction func heightSliderChanged(_ sender: UISlider) {
-        var result=sender.value
-        
-        print(sender.value)
+       
+       
+        print( String(format:"%.2f", sender.value))
     }
     @IBAction func weightSliderChanged(_ sender: UISlider) {
         print(sender.value)
