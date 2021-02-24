@@ -9,11 +9,10 @@ import Foundation
 
 let skeleton=Enemy()
 
-print(skeleton.health)
+let dragon=Dragon()
+dragon.wingSpan=5
+dragon.attackStrength=15
+dragon.talk(speach: "My teeth are swords! My claws are spears! My wings are a hurricane")
+dragon.move()
+dragon.attack()
 
-skeleton.move()
-skeleton.attack()
-
-
-let skeleton2=Enemy()
-let skeleton3=Enemy()
