@@ -26,4 +26,12 @@ struct CalculatorBrain{
             bmi=BMI(value: bmiValue, advice: "Eat less pies", color: UIColor.red)
         }
     }
+    
+    func getAdvice()->String{
+        return bmi?.advice ?? "No advice"
+    }
+    func getColor()->UIColor{
+        return bmi?.color ?? UIColor.white
+
+    }
 }
