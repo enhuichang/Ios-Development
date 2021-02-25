@@ -13,4 +13,13 @@ class Dragon:Enemy{
     func talk(speach:String){
         print("Says:\(speach)")
     }
+    
+    override func move() {
+        print("Fly forwards")
+    }
+    
+    override func attack(){
+        super.attack()
+        print("Spits fire, does 10 damage")
+    }
 }
