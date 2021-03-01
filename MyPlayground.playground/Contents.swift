@@ -1,9 +1,20 @@
 
 import UIKit
 
-let array=[6,2,3,9,4,1]
 
 
-let newArray=array.map({"\($0)"})
 
-print(newArray)
+
+
+extension UIButton{
+    func makeCircular(){
+        button.clipsToBounds = true
+        button.layer.cornerRadius = self.frame.size.width/2
+    }
+}
+let button = UIButton(frame: CGRect(x:0,y:0,width:50,height:50))
+
+button.backgroundColor = .red
+
+button.makeCircular()
+
