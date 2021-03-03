@@ -7,11 +7,9 @@
 //
 
 import UIKit
+import CoreLocation
 
-class WeatherViewController: UIViewController,UITextFieldDelegate,WeatherManagerDelegate{
-
-    
-
+class WeatherViewController: UIViewController,CLL{
 
     @IBOutlet weak var conditionImageView: UIImageView!
     @IBOutlet weak var temperatureLabel: UILabel!
@@ -19,14 +17,28 @@ class WeatherViewController: UIViewController,UITextFieldDelegate,WeatherManager
     @IBOutlet weak var searchTextField: UITextField!
     
     var weatherManager=WeatherManager()
+    let locationManager=CLLocationManager()
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        locationManager.requestWhenInUseAuthorization()
+        locationManager.requestLocation()
+        
+        
         searchTextField.delegate = self
         weatherManager.delegate=self
     }
 
+
+    
+
+}
+
+//MARK: - UITextFiledDelegate
+extension WeatherViewController:UITextFieldDelegate{
     @IBAction func searchPressed(_ sender: UIButton) {
         searchTextField.endEditing(true)
         print(searchTextField.text!)
@@ -52,7 +64,9 @@ class WeatherViewController: UIViewController,UITextFieldDelegate,WeatherManager
             return false
         }
     }
-    
+}
+//MARK: - WeatherManagerDelegate
+extension WeatherViewController:WeatherManagerDelegate{
     func didUpdateWeather(_ weatherManager:WeatherManager,weather:WeatherModel)  {
         DispatchQueue.main.async {
             self.temperatureLabel.text=weather.temperatureString
@@ -63,6 +77,8 @@ class WeatherViewController: UIViewController,UITextFieldDelegate,WeatherManager
     func didFailWithError(error: Error){
         print(error)
     }
-    
 }
-
+//MARK: - CLLocationManagerDelegate
+extension WeatherViewController:CLLocationManagerDelegate{
+    func locationManager(_manager: CLLocationManager,didUpdateLocations locations:[CLLocation])
+}
