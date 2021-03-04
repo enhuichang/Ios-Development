@@ -1,20 +1,15 @@
+import Foundation
+let fruits:Set = ["Apple","Pear","Orange"]
+let contacts=["Adam":123456789,"James":987654321,"Amy":912837365]
+let word="ssfsfasdfasfsdafdsfsfsfs"
+let halfOfOpenRange = 1..<5
+let closedRange = 1...5
 
-import UIKit
+var now = Date().timeIntervalSince1970
+let oneSecondFromNow = now+1
 
 
-
-
-
-
-extension UIButton{
-    func makeCircular(){
-        button.clipsToBounds = true
-        button.layer.cornerRadius = self.frame.size.width/2
-    }
+while now<oneSecondFromNow {
+    now = Date().timeIntervalSince1970
+    print("waiting")
 }
-let button = UIButton(frame: CGRect(x:0,y:0,width:50,height:50))
-
-button.backgroundColor = .red
-
-button.makeCircular()
-
