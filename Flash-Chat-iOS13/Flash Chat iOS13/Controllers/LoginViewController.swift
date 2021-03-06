@@ -22,7 +22,7 @@ class LoginViewController: UIViewController {
                 print(e.localizedDescription)
             } else {
                 //Navigate to the ChatViewerController
-                self.performSegue(withIdentifier: "LoginToChat", sender: self)
+                self.performSegue(withIdentifier: Constants.loginSeague, sender: self)
             }
         
         }
