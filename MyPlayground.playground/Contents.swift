@@ -18,3 +18,6 @@ print(myStructure.instanceProperty)
 
 
 print(MyStructure.typeProperty    )
+
+myStructure.instanceMethod()
+MyStructure.typeMethod()
