@@ -1,23 +1,31 @@
 import Foundation
 
-struct MyStructure{
-    let instanceProperty = "ABC"
-    static let typeProperty = "123"
+class Animal{
+    var name:String
     
-    func instanceMethod(){
-        
-    }
-    static func typeMethod(){
-        
+    init(n :String) {
+        name=n
     }
 }
 
 
-let myStructure = MyStructure()
-print(myStructure.instanceProperty)
+class Human:Animal{
+    func code(){
+        print("Typing away...")
+    }
+}
+
+class Fish:Animal{
+    func breatheUnderWater(){
+        print("Breathing under water ")
+    }
+}
 
 
-print(MyStructure.typeProperty    )
+let angela=Human(n:"Angela Yu")
+let jack = Human(n:"Jack Bauer")
+let nemo=Fish  (n: "Nemo")
+let num :NSNumber = 12
+let word:NSString = "abc"
 
-myStructure.instanceMethod()
-MyStructure.typeMethod()
+let neigbours:[Any] = [num,word,nemo]
