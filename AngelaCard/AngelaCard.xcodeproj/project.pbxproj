@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D2D22E725FBA114004F6818 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2D22E625FBA114004F6818 /* AppDelegate.swift */; };
+		0D2D22E925FBA114004F6818 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2D22E825FBA114004F6818 /* SceneDelegate.swift */; };
+		0D2D22EB25FBA114004F6818 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2D22EA25FBA114004F6818 /* ContentView.swift */; };
+		0D2D22ED25FBA116004F6818 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D2D22EC25FBA116004F6818 /* Assets.xcassets */; };
+		0D2D22F025FBA116004F6818 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D2D22EF25FBA116004F6818 /* Preview Assets.xcassets */; };
+		0D2D22F325FBA116004F6818 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D2D22F125FBA116004F6818 /* LaunchScreen.storyboard */; };
+		0D2D22FE25FBA116004F6818 /* AngelaCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2D22FD25FBA116004F6818 /* AngelaCardTests.swift */; };
+		0D2D230925FBA116004F6818 /* AngelaCardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2D230825FBA116004F6818 /* AngelaCardUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0D2D22FA25FBA116004F6818 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D2D22DB25FBA114004F6818 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D2D22E225FBA114004F6818;
+			remoteInfo = AngelaCard;
+		};
+		0D2D230525FBA116004F6818 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D2D22DB25FBA114004F6818 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D2D22E225FBA114004F6818;
+			remoteInfo = AngelaCard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D2D22E325FBA114004F6818 /* AngelaCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AngelaCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D2D22E625FBA114004F6818 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0D2D22E825FBA114004F6818 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0D2D22EA25FBA114004F6818 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0D2D22EC25FBA116004F6818 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0D2D22EF25FBA116004F6818 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0D2D22F225FBA116004F6818 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0D2D22F425FBA116004F6818 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D2D22F925FBA116004F6818 /* AngelaCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AngelaCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D2D22FD25FBA116004F6818 /* AngelaCardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngelaCardTests.swift; sourceTree = "<group>"; };
+		0D2D22FF25FBA116004F6818 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D2D230425FBA116004F6818 /* AngelaCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AngelaCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D2D230825FBA116004F6818 /* AngelaCardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngelaCardUITests.swift; sourceTree = "<group>"; };
+		0D2D230A25FBA116004F6818 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D2D22E025FBA114004F6818 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D2D22F625FBA116004F6818 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D2D230125FBA116004F6818 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D2D22DA25FBA114004F6818 = {
+			isa = PBXGroup;
+			children = (
+				0D2D22E525FBA114004F6818 /* AngelaCard */,
+				0D2D22FC25FBA116004F6818 /* AngelaCardTests */,
+				0D2D230725FBA116004F6818 /* AngelaCardUITests */,
+				0D2D22E425FBA114004F6818 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0D2D22E425FBA114004F6818 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D2D22E325FBA114004F6818 /* AngelaCard.app */,
+				0D2D22F925FBA116004F6818 /* AngelaCardTests.xctest */,
+				0D2D230425FBA116004F6818 /* AngelaCardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0D2D22E525FBA114004F6818 /* AngelaCard */ = {
+			isa = PBXGroup;
+			children = (
+				0D2D22E625FBA114004F6818 /* AppDelegate.swift */,
+				0D2D22E825FBA114004F6818 /* SceneDelegate.swift */,
+				0D2D22EA25FBA114004F6818 /* ContentView.swift */,
+				0D2D22EC25FBA116004F6818 /* Assets.xcassets */,
+				0D2D22F125FBA116004F6818 /* LaunchScreen.storyboard */,
+				0D2D22F425FBA116004F6818 /* Info.plist */,
+				0D2D22EE25FBA116004F6818 /* Preview Content */,
+			);
+			path = AngelaCard;
+			sourceTree = "<group>";
+		};
+		0D2D22EE25FBA116004F6818 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0D2D22EF25FBA116004F6818 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0D2D22FC25FBA116004F6818 /* AngelaCardTests */ = {
+			isa = PBXGroup;
+			children = (
+				0D2D22FD25FBA116004F6818 /* AngelaCardTests.swift */,
+				0D2D22FF25FBA116004F6818 /* Info.plist */,
+			);
+			path = AngelaCardTests;
+			sourceTree = "<group>";
+		};
+		0D2D230725FBA116004F6818 /* AngelaCardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0D2D230825FBA116004F6818 /* AngelaCardUITests.swift */,
+				0D2D230A25FBA116004F6818 /* Info.plist */,
+			);
+			path = AngelaCardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0D2D22E225FBA114004F6818 /* AngelaCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D2D230D25FBA116004F6818 /* Build configuration list for PBXNativeTarget "AngelaCard" */;
+			buildPhases = (
+				0D2D22DF25FBA114004F6818 /* Sources */,
+				0D2D22E025FBA114004F6818 /* Frameworks */,
+				0D2D22E125FBA114004F6818 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AngelaCard;
+			productName = AngelaCard;
+			productReference = 0D2D22E325FBA114004F6818 /* AngelaCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0D2D22F825FBA116004F6818 /* AngelaCardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D2D231025FBA116004F6818 /* Build configuration list for PBXNativeTarget "AngelaCardTests" */;
+			buildPhases = (
+				0D2D22F525FBA116004F6818 /* Sources */,
+				0D2D22F625FBA116004F6818 /* Frameworks */,
+				0D2D22F725FBA116004F6818 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D2D22FB25FBA116004F6818 /* PBXTargetDependency */,
+			);
+			name = AngelaCardTests;
+			productName = AngelaCardTests;
+			productReference = 0D2D22F925FBA116004F6818 /* AngelaCardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0D2D230325FBA116004F6818 /* AngelaCardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D2D231325FBA116004F6818 /* Build configuration list for PBXNativeTarget "AngelaCardUITests" */;
+			buildPhases = (
+				0D2D230025FBA116004F6818 /* Sources */,
+				0D2D230125FBA116004F6818 /* Frameworks */,
+				0D2D230225FBA116004F6818 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D2D230625FBA116004F6818 /* PBXTargetDependency */,
+			);
+			name = AngelaCardUITests;
+			productName = AngelaCardUITests;
+			productReference = 0D2D230425FBA116004F6818 /* AngelaCardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0D2D22DB25FBA114004F6818 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					0D2D22E225FBA114004F6818 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					0D2D22F825FBA116004F6818 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 0D2D22E225FBA114004F6818;
+					};
+					0D2D230325FBA116004F6818 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 0D2D22E225FBA114004F6818;
+					};
+				};
+			};
+			buildConfigurationList = 0D2D22DE25FBA114004F6818 /* Build configuration list for PBXProject "AngelaCard" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0D2D22DA25FBA114004F6818;
+			productRefGroup = 0D2D22E425FBA114004F6818 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0D2D22E225FBA114004F6818 /* AngelaCard */,
+				0D2D22F825FBA116004F6818 /* AngelaCardTests */,
+				0D2D230325FBA116004F6818 /* AngelaCardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D2D22E125FBA114004F6818 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D2D22F325FBA116004F6818 /* LaunchScreen.storyboard in Resources */,
+				0D2D22F025FBA116004F6818 /* Preview Assets.xcassets in Resources */,
+				0D2D22ED25FBA116004F6818 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D2D22F725FBA116004F6818 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D2D230225FBA116004F6818 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D2D22DF25FBA114004F6818 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D2D22E725FBA114004F6818 /* AppDelegate.swift in Sources */,
+				0D2D22E925FBA114004F6818 /* SceneDelegate.swift in Sources */,
+				0D2D22EB25FBA114004F6818 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D2D22F525FBA116004F6818 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D2D22FE25FBA116004F6818 /* AngelaCardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D2D230025FBA116004F6818 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D2D230925FBA116004F6818 /* AngelaCardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0D2D22FB25FBA116004F6818 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0D2D22E225FBA114004F6818 /* AngelaCard */;
+			targetProxy = 0D2D22FA25FBA116004F6818 /* PBXContainerItemProxy */;
+		};
+		0D2D230625FBA116004F6818 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0D2D22E225FBA114004F6818 /* AngelaCard */;
+			targetProxy = 0D2D230525FBA116004F6818 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0D2D22F125FBA116004F6818 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D2D22F225FBA116004F6818 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0D2D230B25FBA116004F6818 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0D2D230C25FBA116004F6818 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0D2D230E25FBA116004F6818 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"AngelaCard/Preview Content\"";
+				DEVELOPMENT_TEAM = 2355T84MCW;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = AngelaCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.line-1.AngelaCard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0D2D230F25FBA116004F6818 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"AngelaCard/Preview Content\"";
+				DEVELOPMENT_TEAM = 2355T84MCW;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = AngelaCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.line-1.AngelaCard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0D2D231125FBA116004F6818 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2355T84MCW;
+				INFOPLIST_FILE = AngelaCardTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.line-1.AngelaCardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AngelaCard.app/AngelaCard";
+			};
+			name = Debug;
+		};
+		0D2D231225FBA116004F6818 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2355T84MCW;
+				INFOPLIST_FILE = AngelaCardTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.line-1.AngelaCardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AngelaCard.app/AngelaCard";
+			};
+			name = Release;
+		};
+		0D2D231425FBA116004F6818 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2355T84MCW;
+				INFOPLIST_FILE = AngelaCardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.line-1.AngelaCardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AngelaCard;
+			};
+			name = Debug;
+		};
+		0D2D231525FBA116004F6818 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2355T84MCW;
+				INFOPLIST_FILE = AngelaCardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.line-1.AngelaCardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AngelaCard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D2D22DE25FBA114004F6818 /* Build configuration list for PBXProject "AngelaCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D2D230B25FBA116004F6818 /* Debug */,
+				0D2D230C25FBA116004F6818 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D2D230D25FBA116004F6818 /* Build configuration list for PBXNativeTarget "AngelaCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D2D230E25FBA116004F6818 /* Debug */,
+				0D2D230F25FBA116004F6818 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D2D231025FBA116004F6818 /* Build configuration list for PBXNativeTarget "AngelaCardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D2D231125FBA116004F6818 /* Debug */,
+				0D2D231225FBA116004F6818 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D2D231325FBA116004F6818 /* Build configuration list for PBXNativeTarget "AngelaCardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D2D231425FBA116004F6818 /* Debug */,
+				0D2D231525FBA116004F6818 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0D2D22DB25FBA114004F6818 /* Project object */;
+}

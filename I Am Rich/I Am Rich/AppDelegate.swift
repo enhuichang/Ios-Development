@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  I Am Rich
 //
-//  Created by Enhui Zhang on 14/2/21.
+//  Created by Enhui Zhang on 12/3/21.
 //
 
 import UIKit
