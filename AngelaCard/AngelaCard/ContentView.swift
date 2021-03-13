@@ -23,6 +23,10 @@ struct ContentView: View {
                     .padding()
                 Text("Ios Developer").foregroundColor(.white)
                     .font(.system(size: 25))
+                Divider()
+                InfoView(text: "+44 123 456 789", imageName: "phone.fill")
+                InfoView(text: "angela@gmail.com", imageName: "envelope.fill")
+                
             }
         }
     }
@@ -33,3 +37,4 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+

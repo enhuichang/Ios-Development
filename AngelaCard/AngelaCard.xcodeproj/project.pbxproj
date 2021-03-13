@@ -16,6 +16,7 @@
 		0D2D22FE25FBA116004F6818 /* AngelaCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2D22FD25FBA116004F6818 /* AngelaCardTests.swift */; };
 		0D2D230925FBA116004F6818 /* AngelaCardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2D230825FBA116004F6818 /* AngelaCardUITests.swift */; };
 		0DDA5E4C25FCE157009921F9 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0DDA5E4B25FCE157009921F9 /* Pacifico-Regular.ttf */; };
+		0DDA5E5125FCECE6009921F9 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDA5E5025FCECE6009921F9 /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		0D2D230825FBA116004F6818 /* AngelaCardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngelaCardUITests.swift; sourceTree = "<group>"; };
 		0D2D230A25FBA116004F6818 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0DDA5E4B25FCE157009921F9 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pacifico-Regular.ttf"; path = "../../../../../../Downloads/Pacifico/Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		0DDA5E5025FCECE6009921F9 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				0D2D22E625FBA114004F6818 /* AppDelegate.swift */,
 				0D2D22E825FBA114004F6818 /* SceneDelegate.swift */,
 				0D2D22EA25FBA114004F6818 /* ContentView.swift */,
+				0DDA5E5025FCECE6009921F9 /* InfoView.swift */,
 				0D2D22EC25FBA116004F6818 /* Assets.xcassets */,
 				0D2D22F125FBA116004F6818 /* LaunchScreen.storyboard */,
 				0D2D22F425FBA116004F6818 /* Info.plist */,
@@ -278,6 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DDA5E5125FCECE6009921F9 /* InfoView.swift in Sources */,
 				0D2D22E725FBA114004F6818 /* AppDelegate.swift in Sources */,
 				0D2D22E925FBA114004F6818 /* SceneDelegate.swift in Sources */,
 				0D2D22EB25FBA114004F6818 /* ContentView.swift in Sources */,
