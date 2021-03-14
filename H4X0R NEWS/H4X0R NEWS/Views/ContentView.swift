@@ -13,6 +13,7 @@ struct ContentView: View {
     var body: some View {
         NavigationView{
             List(networkManager.posts) {
+                NavigationLink
                 post  in
                 HStack {
                     Text(String(post.points))
