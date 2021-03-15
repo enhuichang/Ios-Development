@@ -16,6 +16,7 @@
 		0DC3D3CF25FDC09000926615 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC3D3CE25FDC09000926615 /* NetworkManager.swift */; };
 		0DC3D3D425FDC4CD00926615 /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC3D3D325FDC4CD00926615 /* PostData.swift */; };
 		0DC3D3E225FE082000926615 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC3D3E125FE082000926615 /* DetailView.swift */; };
+		0DDA5E7525FE31EA009921F9 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDA5E7425FE31EA009921F9 /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		0DC3D3CE25FDC09000926615 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		0DC3D3D325FDC4CD00926615 /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
 		0DC3D3E125FE082000926615 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		0DDA5E7425FE31EA009921F9 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +153,7 @@
 			children = (
 				0DC3D3A125FDB41900926615 /* ContentView.swift */,
 				0DC3D3E125FE082000926615 /* DetailView.swift */,
+				0DDA5E7425FE31EA009921F9 /* WebView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -287,6 +290,7 @@
 				0DC3D3CF25FDC09000926615 /* NetworkManager.swift in Sources */,
 				0DC3D3D425FDC4CD00926615 /* PostData.swift in Sources */,
 				0DC3D3A225FDB41900926615 /* ContentView.swift in Sources */,
+				0DDA5E7525FE31EA009921F9 /* WebView.swift in Sources */,
 				0DC3D3E225FE082000926615 /* DetailView.swift in Sources */,
 				0DC3D3A025FDB41900926615 /* H4X0R_NEWSApp.swift in Sources */,
 			);
