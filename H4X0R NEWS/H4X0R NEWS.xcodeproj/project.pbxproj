@@ -53,6 +53,7 @@
 		0DC3D3D325FDC4CD00926615 /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
 		0DC3D3E125FE082000926615 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		0DDA5E7425FE31EA009921F9 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		0DDA5E7925FF80B2009921F9 /* H4X0R NEWS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "H4X0R NEWS.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +104,7 @@
 		0DC3D39E25FDB41900926615 /* H4X0R NEWS */ = {
 			isa = PBXGroup;
 			children = (
+				0DDA5E7925FF80B2009921F9 /* H4X0R NEWS.entitlements */,
 				0DC3D3D825FE07E000926615 /* Views */,
 				0DC3D3CD25FDC02600926615 /* Models */,
 				0DC3D39F25FDB41900926615 /* H4X0R_NEWSApp.swift */,
@@ -449,6 +451,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "H4X0R NEWS/H4X0R NEWS.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"H4X0R NEWS/Preview Content\"";
 				DEVELOPMENT_TEAM = 2355T84MCW;
@@ -461,6 +464,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.line-1.H4X0R-NEWS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -471,6 +475,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "H4X0R NEWS/H4X0R NEWS.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"H4X0R NEWS/Preview Content\"";
 				DEVELOPMENT_TEAM = 2355T84MCW;
@@ -483,6 +488,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.line-1.H4X0R-NEWS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
