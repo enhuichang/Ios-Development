@@ -31,7 +31,16 @@
                             <outlet property="delegate" destination="ZWN-bu-FkW" id="ueB-VM-Zit"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="uxt-cQ-41K"/>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="uxt-cQ-41K" userLabel="Todoey">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="mQP-52-XIk">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="addButtonPressed:" destination="ZWN-bu-FkW" id="LTR-Vq-1d3"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7Ki-O0-zke" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
