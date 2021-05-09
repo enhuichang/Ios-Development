@@ -9,7 +9,7 @@
 import UIKit
 import CoreData
 
-class TodoListViewController: UITableViewController {
+class TodoListViewController: UITableViewController{
     
     var itemArray = [Item]()
 
@@ -19,7 +19,9 @@ class TodoListViewController: UITableViewController {
         super.viewDidLoad()
         
         print(FileManager.default.urls(for: .documentDirectory, in: .userDomainMask))
-//        loadItems()
+        
+
+        loadItems()
         
         // Do any additional setup after loading the view.
     }
@@ -43,7 +45,9 @@ class TodoListViewController: UITableViewController {
     
     //Mark - TableView Delegate Methods
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        //print(itemArray[indexPath.row])
+//        context.delete(itemArray[indexPath.row])
+//        itemArray.remove(at: indexPath.row)
+        
         itemArray[indexPath.row].done = !itemArray[indexPath.row].done
    
         saveItems()
@@ -88,16 +92,35 @@ class TodoListViewController: UITableViewController {
         
         self.tableView.reloadData()
     }
- //   func loadItems(){
- //
- //       if let data = try? Data(contentsOf: dataFilePath!){
- //           let decoder = PropertyListDecoder()
-//            do{
- //           itemArray = try decoder.decode([Item].self, from: data)
- //       }catch{
- //           print("Error decoding item array,\(error)")
-//        }
-//        }
- //   }
+    func loadItems(with request:NSFetchRequest<Item> =  Item.fetchRequest()){
+        
+        do{
+        itemArray = try context.fetch(request)
+        }catch{
+            print("Error fetching data from context \(error)")
+        }
+        tableView.reloadData()
+
+    }
+
+}
+//MARK: - Search Bar Methods
+
+extension TodoListViewController: UISearchBarDelegate{
+    
+    func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
+        let request: NSFetchRequest<Item> = Item.fetchRequest()
+        
+        request.predicate = NSPredicate(format: "title CONTAINS[cd] %@", searchBar.text!)
+        
+        request.sortDescriptors = [NSSortDescriptor(key: "title", ascending: true)]
+        
+        loadItems(with: request)
+
+    }
+    
+    func searchBarCancelButtonClicked(_ searchBar: UISearchBar) {
+        loadItems()
+    }
 }
 
